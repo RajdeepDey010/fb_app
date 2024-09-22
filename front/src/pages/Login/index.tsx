@@ -1,7 +1,9 @@
 import { Box, Button, Modal, OutlinedInput, Typography } from '@mui/material'
-import path from '../assets/facebook.svg'
 import { useState } from 'react';
-import Signup from './Signup';
+import Heading1 from '../../components/ui/typography/Heading1';
+import Heading3 from '../../components/ui/typography/Heading3';
+import Heading2 from '../../components/ui/typography/Heading2';
+import Signup from '../signup';
 
 const style = {
   position: 'absolute',
@@ -26,11 +28,14 @@ function Login() {
         <div className="lg:w-1/2 flex items-center justify-start p-10">
           <div className="text-black text-left">
             <div style={{ width: '50%' }}>
-              <img src={path} alt="fb" />
+              <img src="/facebook.svg" alt="fb" />
             </div>
-            <Typography variant="h5" className="font-bold mt-4">
+            <Heading2>
               Facebook helps you connect and share with the people in your life.
-            </Typography>
+            </Heading2>
+            {/* <Typography variant="h5" className="font-bold mt-4">
+              Facebook helps you connect and share with the people in your life.
+            </Typography> */}
           </div>
         </div>
 
