@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fname": "john",
+      "lname": "doe",
+      "email": "abc@asd.asd",
+      "pwd": "asdfg",
+      "handle": "@johndoe"
+    }
+  ]
+}
