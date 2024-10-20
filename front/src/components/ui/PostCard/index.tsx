@@ -1,4 +1,3 @@
-import CloseIcon from '@mui/icons-material/Close';
 import Heading3 from '../typography/Heading3';
 import Button from '../Button';
 import Heading2 from '../typography/Heading2';
@@ -22,7 +21,7 @@ function PostCard() {
         </div>
         <div className="right flex items-center">
           <Button className='bg-transparent hover:bg-slate-200 hover:rounded-full'><i className="fa-solid fa-ellipsis p-3"></i></Button>
-          <Button className='bg-transparent hover:bg-slate-200 hover:rounded-full p-2'><CloseIcon className='' /></Button>
+          <Button className='bg-transparent hover:bg-slate-200 hover:rounded-full p-2'>Close</Button>
         </div>
       </div>
 

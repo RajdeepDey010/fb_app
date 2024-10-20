@@ -111,7 +111,7 @@ function LeftNav() {
 
   return (
     <div className="w-1/5 px-4 py-2">
-      <div className="space-y-3 overflow-auto max-h-full">
+      <div className="space-y-3 overflow-y-auto max-h-full">
         {
           data.map((item) =>
             <div className="flex space-x-2 p-2 hover:bg-gray-200 rounded-md cursor-pointer">

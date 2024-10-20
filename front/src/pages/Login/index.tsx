@@ -1,4 +1,3 @@
-import { Box, Button, Modal, OutlinedInput} from '@mui/material'
 import { useState } from 'react';
 import Heading2 from '../../components/ui/typography/Heading2';
 import Signup from '../signup';
@@ -38,7 +37,7 @@ function Login() {
         </div>
 
         <div className="lg:w-1/2 flex items-center justify-center p-6">
-          <div className="w-full max-w-md bg-white p-8 shadow-lg rounded-lg">
+          {/* <div className="w-full max-w-md bg-white p-8 shadow-lg rounded-lg">
             <OutlinedInput
               sx={{ borderRadius: '6px' }}
               fullWidth
@@ -90,7 +89,7 @@ function Login() {
                 </Box>
               </Modal>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

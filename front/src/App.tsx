@@ -1,7 +1,7 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './pages/Home';
-import Login from './pages/Login';
+import Home from './pages/home/Home';
+import Login from './pages/login';
 import Signup from './pages/signup';
 
 
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
 function App() {
 
   return (
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   )
 }
 

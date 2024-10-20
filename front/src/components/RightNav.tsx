@@ -1,6 +1,5 @@
-import { Avatar } from '@mui/material';
-import Heading3 from './ui/typography/Heading3';
 import Heading1 from './ui/typography/Heading1';
+import Heading3 from './ui/typography/Heading3';
 
 function RightNav() {
   const contacts = [
@@ -17,14 +16,14 @@ function RightNav() {
   ];
 
   return (
-    <div className="w-1/5 h-screen p-4 rounded-lg">
+    <div className="w-1/5 p-4 rounded-lg">
       <Heading1 className="mb-4">Contacts</Heading1>
       <div className="space-y-3 overflow-auto max-h-full">
         {contacts.map(contact => (
           <div
             className="flex items-center space-x-4 hover:bg-gray-200 p-2 rounded-md cursor-pointer transition ease-in-out duration-150"
           >
-            <Avatar alt={contact.name} src={contact.imgUrl} />
+            {/* <Avatar alt={contact.name} src={contact.imgUrl} /> */}
             <Heading3>{contact.name}</Heading3>
             <span className="ml-auto text-green-500">&#x2022;</span>
           </div>
