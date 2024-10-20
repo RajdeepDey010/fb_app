@@ -1,0 +1,7 @@
+- In login use react hook-form.
+- crreate the postCard component for the user posts.Each section is a custom component.
+	- Head section
+	- Content section
+		- Text + Upload
+	- Footer section
+		- Like & comment count + action buttons

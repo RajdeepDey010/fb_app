@@ -1,7 +1,5 @@
-import { Box, Button, Modal, OutlinedInput, Typography } from '@mui/material'
+import { Box, Button, Modal, OutlinedInput} from '@mui/material'
 import { useState } from 'react';
-import Heading1 from '../../components/ui/typography/Heading1';
-import Heading3 from '../../components/ui/typography/Heading3';
 import Heading2 from '../../components/ui/typography/Heading2';
 import Signup from '../signup';
 
